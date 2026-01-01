@@ -1,0 +1,21 @@
+# Xcode
+#
+# gitignore contributors: scroll through to find your relevant project
+#
+# Reference: https://github.com/github/gitignore/blob/main/Swift.gitignore
+
+build/
+DerivedData/
+*.swp
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+*.xccheckout
+*.xcscheme
+!default.xcscheme
+*.xcscmblueprint
+*.xctestcopy-resources
+
+# OS X
+#
+.DS_Store
