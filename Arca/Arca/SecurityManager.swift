@@ -8,8 +8,8 @@ class SecurityManager: ObservableObject {
     @Published var isAuthenticated = false
     private var lastBackgroundDate: Date?
     
-    // Idle timeout in seconds (5 minutes)
-    private let idleTimeout: TimeInterval = 300
+    // Idle timeout in seconds (1 minute)
+    private let idleTimeout: TimeInterval = 60
     
     // For testing/debugging, we can set it to a shorter period
     #if DEBUG
